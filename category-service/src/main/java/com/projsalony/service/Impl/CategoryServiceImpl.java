@@ -21,7 +21,7 @@ public class CategoryServiceImpl implements CategoryService {
     public Category createCategory(Category category, SalonDTO salonDTO) {
         Category newCategory = new Category();
         newCategory.setName(category.getName());
-        newCategory.setSalonId(category.getSalonId());
+        newCategory.setSalonId(salonDTO.getId());
         newCategory.setImage(category.getImage());
         return categoryRepository.save(newCategory);
     }
@@ -45,7 +45,7 @@ public class CategoryServiceImpl implements CategoryService {
     public void deleteCategoryById(Long id, Long salonId) throws Exception {
         Category category = getCategoryById(id);
 
-        if(category.getSalonId().equals(salonId)){ // this will allow users to delete only there category and not the category of others
+        if(!category.getSalonId().equals(salonId)){ // this will allow users to delete only there category and not the category of others
             throw new Exception("You don't have permission to delete this category");
         }
         categoryRepository.deleteById(id);

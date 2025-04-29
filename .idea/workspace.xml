@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7395c9bd-eb08-44ca-a506-1f84d31fe856" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/dto/SalonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -29,7 +29,7 @@ public class SalonCategoryController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> createCategory(@PathVariable Long id) throws Exception {
+    public ResponseEntity<String> deleteCategory(@PathVariable Long id) throws Exception {
         SalonDTO salonDTO = new SalonDTO();// THIS WILL BE CORRECTED AFTER I HAVE SET UP KEYCLOAK AUTHENTICATION
         salonDTO.setId(1L);
         categoryService.deleteCategoryById(id,salonDTO.getId());
