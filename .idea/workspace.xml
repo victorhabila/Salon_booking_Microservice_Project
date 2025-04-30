@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7395c9bd-eb08-44ca-a506-1f84d31fe856" name="Changes" comment="">
+    <list default="true" id="36a55eef-4080-41cc-b8c9-d3d0a680342c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +29,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2wOZf5gRTTahv8lfFsB3vNfHJAE" />
+  <component name="ProjectId" id="2wRUJ3zgDBxmR7C7dMm5Yw64f5U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,22 +37,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/category-service/src/main/java/com/projsalony"
+    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/service-offering/src/main/java/com/projsalony"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1165575\Downloads\SalonyProject\NEW SALONY\category-service\src\main\java\com\projsalony" />
+      <recent name="C:\Users\1165575\Downloads\SalonyProject\NEW SALONY\service-offering\src\main\java\com\projsalony" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ServiceOfferingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.projsalony.ServiceOfferingApplication" />
+      <module name="service-offering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.projsalony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceOfferingApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7395c9bd-eb08-44ca-a506-1f84d31fe856" name="Changes" comment="" />
-      <created>1745914680745</created>
+      <changelist id="36a55eef-4080-41cc-b8c9-d3d0a680342c" name="Changes" comment="" />
+      <created>1746003804857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745914680745</updated>
+      <updated>1746003804857</updated>
     </task>
     <servers />
   </component>
