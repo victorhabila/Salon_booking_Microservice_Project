@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a55eef-4080-41cc-b8c9-d3d0a680342c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/controller/SalonServiceOfferingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/controller/ServiceOfferingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/dto/SalonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/dto/ServiceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/model/ServiceOffering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/repository/ServiceOfferingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/service/Impl/ServiceOfferingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/projsalony/service/ServiceOfferingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
