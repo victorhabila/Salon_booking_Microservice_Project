@@ -16,14 +16,16 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="service-offering" />
         <module name="salon-service" />
         <module name="category-service" />
+        <module name="service-offering" />
+        <module name="booking-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="booking-service" options="-parameters" />
       <module name="category-service" options="-parameters" />
       <module name="salon-service" options="-parameters" />
       <module name="service-offering" options="-parameters" />
