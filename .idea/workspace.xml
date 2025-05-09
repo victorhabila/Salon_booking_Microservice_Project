@@ -5,16 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7696b138-c6b6-4f75-bb24-70357c3b2379" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/controller/BookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/domain/BookingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/BookedSlotsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/BookingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/BookingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/SalonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/ServiceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/ServiceOfferingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/mapper/BookingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/model/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/model/SalonReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/repository/BookingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/service/Impl/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/service/Impl/BookingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,11 +58,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/booking-service/src/main/java/com/projsalony"
+    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/booking-service/src/main/java/com/projsalony/mapper"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.projsalony.service.Impl" />
+      <recent name="com.projsalony.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1165575\Downloads\SalonyProject\NEW SALONY\booking-service\src\main\java\com\projsalony\mapper" />
+      <recent name="C:\Users\1165575\Downloads\SalonyProject\NEW SALONY\booking-service\src\main\java\com\projsalony\dto" />
       <recent name="C:\Users\1165575\Downloads\SalonyProject\NEW SALONY\booking-service\src\main\java\com\projsalony" />
     </key>
   </component>
