@@ -1,4 +1,4 @@
-package com.salonyapp.payload.response;
+package com.projsalony.payload.response;
 
 public class PaymentLinkResponse {
     private String payment_link_url;

@@ -1,12 +1,12 @@
-package com.salonyapp.service;
+package com.projsalony.service;
 
 import com.razorpay.PaymentLink;
 import com.razorpay.RazorpayException;
-import com.salonyapp.domain.PaymentMethod;
-import com.salonyapp.dto.BookingDTO;
-import com.salonyapp.dto.UserDTO;
-import com.salonyapp.model.PaymentOrder;
-import com.salonyapp.payload.response.PaymentLinkResponse;
+import com.projsalony.domain.PaymentMethod;
+import com.projsalony.dto.BookingDTO;
+import com.projsalony.dto.UserDTO;
+import com.projsalony.model.PaymentOrder;
+import com.projsalony.payload.response.PaymentLinkResponse;
 import com.stripe.exception.StripeException;
 
 public interface PaymentService {

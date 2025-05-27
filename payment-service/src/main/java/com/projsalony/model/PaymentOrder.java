@@ -1,7 +1,7 @@
-package com.salonyapp.model;
+package com.projsalony.model;
 
-import com.salonyapp.domain.PaymentMethod;
-import com.salonyapp.domain.PaymentOrderStatus;
+import com.projsalony.domain.PaymentMethod;
+import com.projsalony.domain.PaymentOrderStatus;
 import jakarta.persistence.*;
 
 @Entity

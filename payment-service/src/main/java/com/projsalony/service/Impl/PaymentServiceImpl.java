@@ -1,17 +1,17 @@
-package com.salonyapp.service.Impl;
+package com.projsalony.service.Impl;
 
+import com.projsalony.service.PaymentService;
 import com.razorpay.Payment;
 import com.razorpay.PaymentLink;
 import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
-import com.salonyapp.domain.PaymentMethod;
-import com.salonyapp.domain.PaymentOrderStatus;
-import com.salonyapp.dto.BookingDTO;
-import com.salonyapp.dto.UserDTO;
-import com.salonyapp.model.PaymentOrder;
-import com.salonyapp.payload.response.PaymentLinkResponse;
-import com.salonyapp.repository.PaymentOrderRepository;
-import com.salonyapp.service.PaymentService;
+import com.projsalony.domain.PaymentMethod;
+import com.projsalony.domain.PaymentOrderStatus;
+import com.projsalony.dto.BookingDTO;
+import com.projsalony.dto.UserDTO;
+import com.projsalony.model.PaymentOrder;
+import com.projsalony.payload.response.PaymentLinkResponse;
+import com.projsalony.repository.PaymentOrderRepository;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.checkout.Session;
@@ -30,7 +30,7 @@ public class PaymentServiceImpl implements PaymentService {
     public PaymentServiceImpl(PaymentOrderRepository paymentOrderRepository) {
         this.paymentOrderRepository = paymentOrderRepository;
     }
-    @Value("${stripe.api.key}")
+    @Value("${stripe.api.secret}")
     private String stripeSecretKey;
     @Value("${razorpay.api.key}")
     private String razorpayApiKey;

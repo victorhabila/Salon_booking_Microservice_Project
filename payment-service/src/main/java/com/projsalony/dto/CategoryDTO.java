@@ -1,4 +1,4 @@
-package com.salonyapp.dto;
+package com.projsalony.dto;
 
 public class CategoryDTO {
     private Long id;

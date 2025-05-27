@@ -1,4 +1,4 @@
-package com.salonyapp.dto;
+package com.projsalony.dto;
 
 import java.time.LocalDateTime;
 import java.util.Set;

@@ -1,6 +1,9 @@
-package com.salonyapp.dto;
+package com.projsalony.dto;
 
-import com.salonyapp.domain.BookingStatus;
+import com.projsalony.domain.BookingStatus;
+import com.projsalony.dto.ServiceOfferingDTO;
+import com.projsalony.dto.UserDTO;
+import com.projsalony.dto.SalonDTO;
 
 import java.time.LocalDateTime;
 import java.util.Set;

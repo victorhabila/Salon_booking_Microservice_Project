@@ -1,4 +1,4 @@
-package com.salonyapp.domain;
+package com.projsalony.domain;
 
 public enum BookingStatus {
 

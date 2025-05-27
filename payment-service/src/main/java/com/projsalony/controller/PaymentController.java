@@ -1,12 +1,12 @@
 package com.projsalony.controller;
 
+import com.projsalony.service.PaymentService;
 import com.razorpay.RazorpayException;
-import com.salonyapp.domain.PaymentMethod;
-import com.salonyapp.dto.BookingDTO;
-import com.salonyapp.dto.UserDTO;
-import com.salonyapp.model.PaymentOrder;
-import com.salonyapp.payload.response.PaymentLinkResponse;
-import com.salonyapp.service.PaymentService;
+import com.projsalony.domain.PaymentMethod;
+import com.projsalony.dto.BookingDTO;
+import com.projsalony.dto.UserDTO;
+import com.projsalony.model.PaymentOrder;
+import com.projsalony.payload.response.PaymentLinkResponse;
 import com.stripe.exception.StripeException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
