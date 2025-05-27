@@ -30,11 +30,11 @@ public class PaymentServiceImpl implements PaymentService {
     public PaymentServiceImpl(PaymentOrderRepository paymentOrderRepository) {
         this.paymentOrderRepository = paymentOrderRepository;
     }
-    @Value("${stripe.api.key}")
+   // @Value("${stripe.api.key}")
     private String stripeSecretKey;
-    @Value("${razorpay.api.key}")
+    //@Value("${razorpay.api.key}")
     private String razorpayApiKey;
-    @Value("${razorpay.api.secret}")
+    //@Value("${razorpay.api.secret}")
     private String razorpayApiSecret;
 
     @Override
