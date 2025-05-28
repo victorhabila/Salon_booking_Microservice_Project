@@ -22,20 +22,21 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-import static com.stripe.Stripe.apiKey;
 
 @Service
 public class PaymentServiceImpl implements PaymentService {
     private final PaymentOrderRepository paymentOrderRepository;
-    public PaymentServiceImpl(PaymentOrderRepository paymentOrderRepository) {
-        this.paymentOrderRepository = paymentOrderRepository;
-    }
-    @Value("${stripe.api.secret}")
+
+    @Value("${stripe.api.key}")
     private String stripeSecretKey;
     @Value("${razorpay.api.key}")
     private String razorpayApiKey;
     @Value("${razorpay.api.secret}")
     private String razorpayApiSecret;
+
+    public PaymentServiceImpl(PaymentOrderRepository paymentOrderRepository) {
+        this.paymentOrderRepository = paymentOrderRepository;
+    }
 
     @Override
     public PaymentLinkResponse createOrder(UserDTO user, BookingDTO booking, PaymentMethod paymentMethod) throws RazorpayException, StripeException {
