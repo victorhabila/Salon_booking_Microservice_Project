@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="CompoundRunConfigurationType">
+    <toRun name="booking-service" type="MavenRunConfiguration" />
+    <toRun name="category-service" type="MavenRunConfiguration" />
+    <toRun name="eureka-server" type="MavenRunConfiguration" />
+    <toRun name="gateway-service" type="MavenRunConfiguration" />
+    <toRun name="payment-service" type="MavenRunConfiguration" />
+    <toRun name="salon-service" type="MavenRunConfiguration" />
+    <toRun name="service-offering" type="MavenRunConfiguration" />
+    <toRun name="user-service" type="MavenRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>

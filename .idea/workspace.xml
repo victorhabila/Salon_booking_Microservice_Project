@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13bb6f3f-e17a-4281-b796-e8cc7737c75c" name="Changes" comment="">
+    <list default="true" id="d3e75afc-b0a2-4ea5-8e6e-8ae2ea68a334" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salon-service/src/main/java/com/projsalony/controller/SalonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service/src/main/java/com/projsalony/controller/SalonController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,32 +29,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2xhB7Z0Gkay91s60KRtMIlteXj3" />
+  <component name="ProjectId" id="2xix6sl9aIttYTwlIwjy7xtmQgX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/user-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/gateway-server&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Compound.Application">
-    <configuration name="Application" type="CompoundRunConfigurationType">
-      <toRun name="booking-service" type="MavenRunConfiguration" />
-      <toRun name="category-service" type="MavenRunConfiguration" />
-      <toRun name="eureka-server" type="MavenRunConfiguration" />
-      <toRun name="payment-service" type="MavenRunConfiguration" />
-      <toRun name="salon-service" type="MavenRunConfiguration" />
-      <toRun name="service-offering" type="MavenRunConfiguration" />
-      <toRun name="user-service [spring-boot:run]" type="MavenRunConfiguration" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType">
-      <toRun name="Application" type="CompoundRunConfigurationType" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Maven.gateway-service">
     <configuration name="booking-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -121,6 +111,31 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="gateway-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/gateway-server" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -228,35 +243,25 @@
     </configuration>
     <list>
       <item itemvalue="Compound.Application" />
-      <item itemvalue="Maven.user-service [spring-boot:run]" />
-      <item itemvalue="Maven.booking-service" />
-      <item itemvalue="Maven.category-service" />
-      <item itemvalue="Maven.eureka-server" />
+      <item itemvalue="Maven.gateway-service" />
       <item itemvalue="Maven.payment-service" />
-      <item itemvalue="Maven.salon-service" />
+      <item itemvalue="Maven.eureka-server" />
       <item itemvalue="Maven.service-offering" />
+      <item itemvalue="Maven.salon-service" />
+      <item itemvalue="Maven.category-service" />
+      <item itemvalue="Maven.booking-service" />
+      <item itemvalue="Maven.user-service [spring-boot:run]" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13bb6f3f-e17a-4281-b796-e8cc7737c75c" name="Changes" comment="" />
-      <created>1748380257230</created>
+      <changelist id="d3e75afc-b0a2-4ea5-8e6e-8ae2ea68a334" name="Changes" comment="" />
+      <created>1748434523337</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748380257230</updated>
+      <updated>1748434523337</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
