@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/api/categories/salon-owner")
+@RequestMapping("/salon-owner")
 public class SalonCategoryController {
 
     private final CategoryService categoryService;
@@ -19,21 +19,13 @@ public class SalonCategoryController {
     }
 
 
-    @PostMapping()
+    @PostMapping
     public ResponseEntity<Category> createCategory(@RequestBody Category category){
 
         SalonDTO salonDTO = new SalonDTO();// THIS WILL BE CORRECTED AFTER I HAVE SET UP KEYCLOAK AUTHENTICATION
         salonDTO.setId(1L);
         Category newCategory = categoryService.createCategory(category,salonDTO );
         return ResponseEntity.ok(newCategory);
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteCategory(@PathVariable Long id) throws Exception {
-        SalonDTO salonDTO = new SalonDTO();// THIS WILL BE CORRECTED AFTER I HAVE SET UP KEYCLOAK AUTHENTICATION
-        salonDTO.setId(1L);
-        categoryService.deleteCategoryById(id,salonDTO.getId());
-        return ResponseEntity.ok("Category deleted successfully");
     }
 
 

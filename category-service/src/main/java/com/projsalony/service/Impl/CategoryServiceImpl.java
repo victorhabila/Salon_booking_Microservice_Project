@@ -6,6 +6,7 @@ import com.projsalony.repository.CategoryRepository;
 import com.projsalony.service.CategoryService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
@@ -21,8 +22,9 @@ public class CategoryServiceImpl implements CategoryService {
     public Category createCategory(Category category, SalonDTO salonDTO) {
         Category newCategory = new Category();
         newCategory.setName(category.getName());
-        newCategory.setSalonId(salonDTO.getId());
         newCategory.setImage(category.getImage());
+        newCategory.setSalonId(salonDTO.getId());
+
         return categoryRepository.save(newCategory);
     }
 
@@ -49,5 +51,22 @@ public class CategoryServiceImpl implements CategoryService {
             throw new Exception("You don't have permission to delete this category");
         }
         categoryRepository.deleteById(id);
+    }
+
+    @Override
+    public List<Category> getAllCategories() {
+        return categoryRepository.findAll();
+    }
+
+    @Override
+    public Category updateCategory(Long id, Category category) throws Exception {
+        Category existingCategory = getCategoryById(id);
+        if(category.getName()!=null){
+            existingCategory.setName(category.getName());
+        }
+        if(category.getImage()!= null){
+            existingCategory.setImage(category.getImage());
+        }
+        return categoryRepository.save(existingCategory);
     }
 }

@@ -110,9 +110,7 @@ public class BookingController {
 
         return ResponseEntity.ok(bookingDTO);
 
-
     }
-
 
     @PutMapping("/{bookingId}/status")
     public ResponseEntity<BookingDTO> updateBookingStatus(
