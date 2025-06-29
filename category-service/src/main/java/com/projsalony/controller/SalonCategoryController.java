@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/salon-owner")
+@RequestMapping("/api/categories/salon-owner")
 public class SalonCategoryController {
 
     private final CategoryService categoryService;

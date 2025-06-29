@@ -93,23 +93,17 @@ public class KeycloakUserService {
                     roles,
                     ACCESS_TOKEN
             );
-
-
         } catch (Exception e) {
             // Handle HTTP 4xx errors
             System.err.println("Client error: " + e.getMessage());
             throw new Exception(e.getMessage());
 
         }
-
-
     }
-
     public TokenResponse getAdminAccessToken(String username,
                                              String password,
                                              String grantType,
                                              String refreshToken) throws Exception {
-
 
         // Set headers
         HttpHeaders headers = new HttpHeaders();
