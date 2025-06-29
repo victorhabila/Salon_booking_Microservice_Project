@@ -18,7 +18,6 @@ public class SalonCategoryController {
         this.categoryService = categoryService;
     }
 
-
     @PostMapping
     public ResponseEntity<Category> createCategory(@RequestBody Category category){
 

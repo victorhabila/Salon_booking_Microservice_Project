@@ -7,7 +7,7 @@
     <list default="true" id="d3e75afc-b0a2-4ea5-8e6e-8ae2ea68a334" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/KeycloakUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/KeycloakUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/UserDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="com.projsalony.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.Application">
+  <component name="RunManager" selected="Maven.user-service [spring-boot:run]">
     <configuration name="booking-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
