@@ -5,23 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3e75afc-b0a2-4ea5-8e6e-8ae2ea68a334" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/domain/InternalCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/domain/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/ApiResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/KeycloakRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/KeycloakUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/KeycloakUserinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/request/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/request/SignupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/payload/response/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/Impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/KeycloakUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/projsalony/controller/BookingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/CategoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/CategoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/controller/SalonCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/projsalony/service/Impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/projsalony/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,14 +68,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/gateway-server&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/1165575/Downloads/SalonyProject/NEW SALONY/gateway-server",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="Maven.gateway-service">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.projsalony.payload.response" />
+      <recent name="com.projsalony.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.user-service [spring-boot:run]">
     <configuration name="booking-service" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />

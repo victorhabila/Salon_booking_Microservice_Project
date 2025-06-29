@@ -1,7 +1,9 @@
 package com.projsalony.controller;
 
 import com.projsalony.exception.UserException;
+import com.projsalony.mapper.UserMapper;
 import com.projsalony.model.User;
+import com.projsalony.payload.response.dto.UserDTO;
 import com.projsalony.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -16,6 +18,7 @@ import java.util.List;
 public class UserController {
 
   private final UserService userService;
+  private final UserMapper userMapper;
 
     @PostMapping("/api/user")
     public ResponseEntity<User> createUser(@RequestBody @Valid User user){
@@ -46,5 +49,11 @@ public class UserController {
     public ResponseEntity<String> deleteUserById(@PathVariable Long id) throws UserException {
         userService.deleteUser(id);
         return new ResponseEntity<>("User is deleted", HttpStatus.ACCEPTED);
+    }
+    @GetMapping("/api/user/profile")
+    public ResponseEntity<UserDTO> getUserProfile(@RequestHeader("Authorization") String jwt) throws Exception {
+       User user = userService.getUserFromJwt(jwt);
+       UserDTO userDTO=userMapper.mapToDTO(user);
+        return new ResponseEntity<>(userDTO, HttpStatus.OK) ;
     }
 }

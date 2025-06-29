@@ -2,7 +2,10 @@ package com.projsalony.service.Impl;
 
 import com.projsalony.exception.UserException;
 import com.projsalony.model.User;
+import com.projsalony.payload.response.dto.KeycloakUserDTO;
+import com.projsalony.payload.response.dto.KeycloakUserinfo;
 import com.projsalony.repository.UserRepository;
+import com.projsalony.service.KeycloakUserService;
 import com.projsalony.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -15,6 +18,7 @@ import java.util.Optional;
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
+    private final KeycloakUserService keycloakUserService;
     @Override
     public User createUser(User user) {
         return userRepository.save(user);
@@ -57,5 +61,20 @@ public class UserServiceImpl implements UserService {
         existingUser.setRole(user.getRole());
         existingUser.setUsername(user.getUsername());
         return userRepository.save(existingUser);
+    }
+
+    @Override
+    public User getUserFromJwt(String jwt) throws Exception {
+        KeycloakUserinfo keycloakUserinfo = keycloakUserService.fetchUserProfileByJwt(jwt);
+
+        if (keycloakUserinfo == null || keycloakUserinfo.getEmail() == null) {
+            throw new UserException("Invalid token or missing email in user profile");
+        }
+
+        User user = userRepository.findByEmail(keycloakUserinfo.getEmail());
+        if (user == null) {
+            throw new UserException("User not found with email: " + keycloakUserinfo.getEmail());
+        }
+        return user;
     }
 }
